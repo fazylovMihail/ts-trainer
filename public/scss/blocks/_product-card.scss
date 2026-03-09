@@ -1,0 +1,23 @@
+.product-card {
+  height: 100%;
+  padding: 40px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: $color-soft-linen;
+  color: $color-deep-charcoal;
+
+  &__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  &__desc {
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

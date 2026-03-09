@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url('../fonts/CascadiaMono-Regular.woff2') format('woff2'),
+    url('../fonts/CascadiaMono-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: wrap;
+}
+
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url('../fonts/CascadiaMono-Medium.woff2') format('woff2'),
+    url('../fonts/CascadiaMono-Medium.woff') format('woff');
+  font-style: medium;
+  font-weight: 500;
+  font-display: wrap;
+}
+
+@font-face {
+  font-family: "Cascadia Mono";
+  src: url('../fonts/CascadiaMono-Bold.woff2') format('woff2'),
+    url('../fonts/CascadiaMono-Bold.woff') format('woff');
+  font-style: bold;
+  font-weight: 700;
+  font-display: wrap;
+}
