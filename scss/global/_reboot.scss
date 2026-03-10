@@ -1,0 +1,19 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: $ff-cascadia;
+  background-color: $color-dark-indigo;
+  color: $color-soft-linen;
+}
+
+main {
+  flex-grow: 1;
+}
